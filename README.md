@@ -24,7 +24,6 @@ Use sendMes2C() function can send the message to any channel which you want if y
 <hr>
 Use isConnected() can get a boolean for known if the network connected.
 
-bool isCUse isConnected() can get a boolean for known if the network connected.
 <hr>
 <b>    bool isConnected()</b>
 <hr>
