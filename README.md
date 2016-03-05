@@ -1,6 +1,6 @@
 <snippet>
 <content>
-# ${IRCBOT}
+# IRCBOT
 
 IRCbot is a basic lib for IRC.<br/>
 This lib can deal with the basic problem in network,and make an interface for your bot to IRC.
@@ -10,31 +10,30 @@ And all the lib was written in C++.
 
 At the first, you need to create a new object of IRCbot which defines under ircBot.h file.
 And when you construct that you may need some parameter for the function that defines as the following.
-
-IRCbot(string nick, string target)
+<hr>
+<b>    IRCbot(string nick, string target)</b>
+<hr>
 
 You need to fill the nickName for the robot and the domain for IRC server.
-
-You need to fill the nickName for the robot and the domain for IRC server.
-
-void joinChannel(string channel)
-
+<hr>
+<b>    void joinChannel(string channel)</b>
+<hr>
 Use sendMes2C() function can send the message to any channel which you want if you yet join the channel, the function will join the channel which you yet join.
-
-void sendMes2C(string mes, string channelSend)
-
+<hr>
+<b>    void sendMes2C(string mes, string channelSend)</b>
+<hr>
 Use isConnected() can get a boolean for known if the network connected.
 
 bool isCUse isConnected() can get a boolean for known if the network connected.
-
-bool isConnected()
-
+<hr>
+<b>    bool isConnected()</b>
+<hr>
 
 And if you want to receive the message from IRC, you can use recveve() function that will return a string.
 But if there is no any message all program will stop to wait for the message, so you must be careful for this.
-
-string recveve()
-
+<hr>
+<b>    string recveve()</b>
+<hr>
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
