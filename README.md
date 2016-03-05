@@ -1,8 +1,8 @@
 <snippet>
-<content><!
+<content>
 # ${IRCBOT}
 
-IRCbot is a basic lib for IRC.\n
+IRCbot is a basic lib for IRC.<br/>
 This lib can deal with the basic problem in network,and make an interface for your bot to IRC.
 And all the lib was written in C++.
 
